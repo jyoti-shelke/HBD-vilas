@@ -14,7 +14,7 @@ function preload(){
   
 }
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(windowWidth, WindowHeight);
   resizeCanvas(window.width,window.height);
 arrow = createSprite(282,164);
   arrow.addImage(down);
